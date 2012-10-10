@@ -13,7 +13,7 @@ show what is going on without writing docstrings (which provides some other semi
 - Memoize fixtures
 - Improved output
 
-Adding desciptive context to your test cases would look something like this::
+Adding desciptive context to your test cases would look something like this:
 
 ::
 
@@ -42,7 +42,9 @@ Adding desciptive context to your test cases would look something like this::
             def test(self):
                 self.assertEquals(self.forum.get_url(), 'demo')
 
-The output would be improved when using verbosity > 1::
+The output would be improved when using verbosity > 1:
+
+::
 
     disqus.forums.models.Forum
         should have an id of 1: passes
