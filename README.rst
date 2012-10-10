@@ -47,8 +47,8 @@ The output would be improved when using verbosity > 1:
 ::
 
     disqus.forums.models.Forum
-        should have an id of 1: passes
-        should have a url of demo: passes
+        - should have an id of 1: passes
+        - should have a url of demo: passes
 
         from_url
-            should return the url: failed!
+            - should return the url: failed!
